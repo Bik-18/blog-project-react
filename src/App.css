@@ -1,6 +1,18 @@
 .App {
   text-align: center;
+  
 }
+body{
+  width: 85%;
+  border-radius: 2px solid red;
+  background-color: #87AAAA;
+  margin: auto;
+  font-family: 'Saira Condensed', sans-serif;
+}
+/* main{
+  
+  
+} */
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +23,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+@media screen and (max-width:500px) {
+    body{
+      width: 100%;
+    }
 }
 
 .App-header {
