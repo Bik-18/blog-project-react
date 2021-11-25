@@ -5,7 +5,7 @@ import "./Bollywood.css";
 
 const Fitness = () => {
     const datas = useContext(DataContext);
-    console.log(datas);
+    // console.log(datas);
     const filteredData = datas.filter((data) => {
         return (data.category === "fitness");
     })
@@ -15,10 +15,10 @@ const Fitness = () => {
         // if(data.category==="bollywood")
         return (
 
-            <BlogCard data={data} />
+            <BlogCard data={data} key={data.id}/>
         )
     })
-    console.log(res);
+    // console.log(res);
     return (
         <>
             <h1 className="main-title">Fitness</h1>

@@ -14,10 +14,10 @@ const Technology = () => {
     })
     let a = (Math.floor(Math.random() * 10)) % 8;
     const res = filteredData.map((data) => {
-        return (<BlogCard data={data} />)
+        return (<BlogCard data={data} key={data.id}/>)
     })
     const res1 = top.map((data) => {
-        return (<BlogCard data={data} />)
+        return (<BlogCard data={data} key={data.id}/>)
     })
     return (
         <>

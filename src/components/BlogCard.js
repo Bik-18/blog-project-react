@@ -7,7 +7,7 @@ import "./BlogCard.css";
 const BlogCard = (props) => {
     
     const { title, para, pika,key,datee } = props.data;
-    console.log(props.data);
+    // console.log(props.data);
     return (
         <div className="blog-card">
             <div className="pika">

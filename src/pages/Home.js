@@ -26,16 +26,16 @@ const Home = (props) => {
         return (data.mark === "latest");
     })
     const res = theLatest.map((data => {
-        return (<BlogCard data={data} />)
+        return (<BlogCard data={data} key={data.id}/>)
     }))
     const topPost = datas.filter((data) => {
         return (data.mark === "top");
     })
     const res1 = topPost.map((data) => {
-        return (<BlogCard data={data} />)
+        return (<BlogCard data={data} key={data.id}/>)
     })
 
-    console.log(a + " " + b + " " + c);
+    // console.log(a + " " + b + " " + c);
     return (
         <>
 

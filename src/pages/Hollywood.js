@@ -5,7 +5,7 @@ import "./Bollywood.css";
 
 const Hollywood = (props) => {
     const datas = useContext(DataContext);
-    console.log(datas);
+    // console.log(datas);
     const filteredData = datas.filter((data) => {
         return (data.category === "hollywood");
     })
@@ -14,7 +14,7 @@ const Hollywood = (props) => {
         // if(data.category==="bollywood")
         return (
 
-            <BlogCard data={data} />
+            <BlogCard data={data} key={data.id}/>
         )
     })
     return (

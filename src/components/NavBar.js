@@ -22,7 +22,7 @@ const NavBar = (props) => {
             <div className="title">
                 <div>The Siren</div>
 
-                <i class="fas fa-bars icon" onClick={handeltoggle} ></i>
+                <i className="fas fa-bars icon" onClick={handeltoggle} ></i>
 
             </div>
             {(a || screenWidth > 500) && (<nav >
