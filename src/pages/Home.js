@@ -11,30 +11,22 @@ const Home = (props) => {
         return (data.category === "nature")
     })
     let a = (Math.floor(Math.random() * 10)) % 5, b = (Math.floor(Math.random() * 10)) % 5, c = (Math.floor(Math.random() * 10)) % 5;
-    // while(a===true || b===true || c===true){
-    //     let d=(Math.floor(Math.random()*10))%6;
-    //     if(a===true)
-    //     a=d;
-    //     else if(d!=a)
-    //     b=d;
-    //     else if(d!=a && d!=b)
-    //     c=d;
 
-    // }
 
     const theLatest = datas.filter((data) => {
         return (data.mark === "latest");
     })
     const res = theLatest.map((data => {
-        return (<BlogCard data={data} key={data.id}/>)
+        return (<BlogCard data={data} key={data.id} />)
     }))
     const topPost = datas.filter((data) => {
         return (data.mark === "top");
     })
     const res1 = topPost.map((data) => {
-        return (<BlogCard data={data} key={data.id}/>)
+        return (<BlogCard data={data} key={data.id} />)
     })
 
+    let e = (Math.floor(Math.random() * 10)) % topPost.length;
     // console.log(a + " " + b + " " + c);
     return (
         <>
@@ -58,7 +50,14 @@ const Home = (props) => {
             </div>
             <aside>
                 <div className="top-post-title main-title"><span>Top</span><span> Posts</span></div>
-                <img src="./images/nat-pic-6.jpg" width="100px" height="80px" className="img-top-post" alt="piku" />
+                <img src={topPost[e].pika} width="100px" height="80px" className="img-top-post" alt="piku" />
+                <div className="yyy">
+                    <div className="card-title"> {topPost[e].title}</div>
+                    <div className="card-para"> {topPost[e].para}</div>
+                    <div>
+                        <span className="card-keyword">{topPost[e].key}</span> <span>/ {topPost[e].datee}</span>
+                    </div>
+                </div>
                 {res1}
                 <div className="advertisement">
                     <h1>Advertisements</h1>
