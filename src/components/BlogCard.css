@@ -11,6 +11,30 @@
     /* C8E3D4 */
 }
 
+.link-container-btn{
+    /* display: flex;
+    justify-content: flex-end;
+    padding-right: 15%; */
+    /* margin-bottom: 5px; */
+    margin:0px 5px;
+}
+.link-container-btn button{
+    padding: 4px 20px;
+    background-color: #97BFB4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.link-container-btn button:hover{
+    background-color: #344CB7;
+    box-shadow: 0px 0px 10px #344CB7;
+}
+
 .blog-card .pika{
     height: 100%;
     width: 75%;
@@ -29,7 +53,7 @@
     
 }
 .blog-card .container div:nth-child(3){
-    margin-top: 20px;
+    /* margin-top: 20px; */
     
 }
 .blog-card .card-title{

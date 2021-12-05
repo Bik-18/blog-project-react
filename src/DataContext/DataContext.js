@@ -10,7 +10,8 @@ const datas = [
         pika: "./images/nature/f1.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"xxx",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
 
     {
@@ -21,7 +22,8 @@ const datas = [
         pika: "./images/nature/f2.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"xxx",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     {
         id: 3,
@@ -31,7 +33,8 @@ const datas = [
         pika: "./images/nature/f3.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"xxx",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     {
         id: 4,
@@ -41,16 +44,19 @@ const datas = [
         pika: "./images/nature/f4.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"xxx",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     {
         id: 5,
-        title: "ras malai",
-        para: 29,
+        title: "the picture of mountain",
+        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
         category: "nature",
         pika: "./images/nature/f5.jpg",
+        key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"xxx",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     
 
@@ -64,23 +70,25 @@ const datas = [
     
     {
         id: 6,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "Mexican Taco",
+        para: "Mexico’s superstar street food, tacos, is a Central American culinary cornerstone that was adored by the Olmec, Maya and Aztec civilisations alike.",
         category: "food",
         pika: "./images/food/f1.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://www.dreamstime.com/photos-images/mexican-taco.html"
     },
     {
         id: 7,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "Traditional Mexican Food",
+        para: "México has one of the richest gastronomies in the world and Mexican food is one of the most beloved cuisines worldwide! It is the product of a set of ancient techniques, that are followed even today, and a sort of mix between pre-Hispanic local products and European ingredients such as certain spices like cinnamon, wheat, cattle, milk, cheese, etc.",
         category: "food",
         pika: "./images/food/f2.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://www.istockphoto.com/search/2/image?phrase=mexican+food"
     },
     {
         id: 8,
@@ -88,9 +96,10 @@ const datas = [
         para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
         category: "food",
         pika: "./images/food/f3.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     {
         id: 9,
@@ -98,59 +107,65 @@ const datas = [
         para: "Butter Chicken is the crowning jewel food of Punjab. No celebration is complete without this dish. Juicy chicken pieces bathed in a creamy gravy of butter and the chicken is lightly spiced and paired up with either naan or rumaali roti. Butter chicken is high in calories.",
         category: "food",
         pika: "./images/food/f4.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     {
         id: 10,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "Food Lust | Top Cities For Traditional Indian Food Sessions",
+        para: "Food Lust | Top 12 Cities For Traditional Indian Food Sessions. Mumbai, Hyderabad, Sikkim, Banaras, Delhi, Rajasthan, Lucknow, Kashmir, Arunachal Pradesh, Amritsar, Goa, Gujarat. So, let us dwell in these towns of India and taste some of the most appetizing dinners and lunches. Plan Traditional Indian Food Sessions.",
         category: "food",
         pika: "./images/food/f5.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://in.pinterest.com/pin/791437334491596419/"
     },
     {
         id:11,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "The Delicious Rabdi Samosa Recipe:",
+        para: "Rabdi Samosa is a delicious dessert to eat and feel it’s crisp. In North India, rabdi samosa is quite popular. It is a mixture of thick rabdi and crispy samosa, flavored with saffron and cardamom.",
         category: "food",
         pika: "./images/food/f6.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://www.rasoirani.com/the-delicious-rabdi-samosa-recipe-enjoy-new-year/"
     },
     {
         id: 12,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "Aloo Poori Recipe - Puri Sabji - Aloo Ki Rasewali Sabzi",
+        para: "Aloo Poori is a North Indian breakfast-lunch recipe. ‘Sabji’ is a spicy, aromatic and tangy potato dish. This is served with puffed up, deep fried Indian bread ‘Poori’.",
         category: "food",
         pika: "./images/food/f7.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://www.mygingergarlickitchen.com/aloo-poori-recipe-puri-sabji-recipe-video-aloo-ki-rasewali-sabzi-with-puri/"
     },
     {
         id: 13,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "Veg Momos",
+        para: "Momo is a type of steamed dumpling with some form of filling. Momo has become a traditional delicacy in Nepal, Tibet, as well as among Nepalese and Tibetan communities in Bhutan, as well as people of Ladakh, Northeast India and Darjeeling regions of India.",
         category: "food",
         pika: "./images/food/f8.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://www.chefkunalkapur.com/recipe/veg-momos/"
     },
     {
         id: 14,
-        title: "the picture of mountain",
-        para: "Find the best mountain pictures and mountain images available on our site. High-quality pictures of mountain and mountain photos for you to download and use",
+        title: "Chaumin recipe : Different Flavours and Different tests",
+        para: "Today I would like to introduce the Nepalese food CHAUMIN. This is like a Italian food pasta. It is a little spicy and very popular in Nepal and India too. Specially it is one of the most popular street food in India and Nepal.",
         category: "food",
         pika: "./images/food/f9.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://steemit.com/chaumin-recipe/@sajhaman/chaumin-recipe-different-flavours-and-different-tests"
     },
     {
         id: 15,
@@ -158,9 +173,10 @@ const datas = [
         para: "Evolving with time, the Litti Chokha has grown with taste and finesse while preserving its origin and culture",
         category: "food",
         pika: "./images/food/f10.jpg",
-        key: "Travel",
+        key: "Health",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
 
     },
 
@@ -180,7 +196,8 @@ const datas = [
         pika: "./images/fitness/f1.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://rwjhamiltonwellness.com/category/blog/"
     },
     {
         id: 17,
@@ -190,7 +207,8 @@ const datas = [
         pika: "./images/fitness/f2.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://www.alamy.com/guy-bodybuilder-tired-in-gym-and-listen-music-with-headset-image212969084.html"
     },
     {
         id: 18,
@@ -200,7 +218,8 @@ const datas = [
         pika: "./images/fitness/f3.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
     {
         id: 19,
@@ -210,7 +229,8 @@ const datas = [
         pika: "./images/fitness/f4.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://breakingmuscle.com/healthy-eating/eat-big-to-get-big/"
     },
     {
         id: 20,
@@ -220,8 +240,9 @@ const datas = [
         pika: "./images/fitness/f5.jpg",
         key: "Travel",
         datee:"August 21 2021",
-        mark:"top"
-    },
+        mark:"top",
+        link:"https://www.youtube.com/watch?v=Ty6SDbN4vUQ"
+      },
 
 
 
@@ -239,7 +260,8 @@ const datas = [
         pika: "./images/bollywood/f1.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"http://indrailsearch.blogspot.com/2016/05/filmy-escapetravel-through-bollywood.html"
     },
     {
         id: 22,
@@ -249,7 +271,8 @@ const datas = [
         pika: "./images/bollywood/f2.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"http://indrailsearch.blogspot.com/2016/05/filmy-escapetravel-through-bollywood.html"
     },
     {
         id: 23,
@@ -259,7 +282,8 @@ const datas = [
         pika: "./images/bollywood/f3.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://blog.thomascook.in/bollywood-movies-inspire-to-travel/"
     },
     {
         id: 24,
@@ -269,7 +293,8 @@ const datas = [
         pika: "./images/bollywood/f4.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"top"
+        mark:"top",
+        link:"https://fitpass.co.in/blog/top-10-fittest-bollywood-actors-fitness-secrets-revealed"
     },
     {
         id: 25,
@@ -279,7 +304,8 @@ const datas = [
         pika: "./images/bollywood/f5.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://leverageedu.com/blog/bollywood-stars-who-studied-abroad/"
     },
     {
         id: 26,
@@ -288,7 +314,9 @@ const datas = [
         category: "bollywood",
         pika: "./images/bollywood/f6.jpg",
         key: "Intertainment",
-        datee:"July 21 2021"
+        datee:"July 21 2021",
+        mark:"latest",
+        link:"https://chhota.in/blog-2#page-content"
     },
     {
         id: 27,
@@ -298,7 +326,8 @@ const datas = [
         pika: "./images/bollywood/f7.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://in.bookmyshow.com/buzz/blog/Movies/upcoming-bollywood-remakes-tamil-films"
     },
     {
         id: 28,
@@ -308,7 +337,8 @@ const datas = [
         pika: "./images/bollywood/f8.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://www.forbesindia.com/blog/giving/journey-of-the-100-crore-bollywood-film/"
     },
     {
         id: 29,
@@ -318,7 +348,8 @@ const datas = [
         pika: "./images/bollywood/f9.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://pickyourtrail.com/blog/why-is-bollywood-park-in-dubai-a-must-visit-for-cinephiles/"
     },
     {
         id: 30,
@@ -328,7 +359,8 @@ const datas = [
         pika: "./images/bollywood/f10.jpg",
         key: "Intertainment",
         datee:"July 21 2021",
-        mark:"latest"
+        mark:"latest",
+        link:"https://recipes.timesofindia.com/articles/features/10-bihari-foods-other-than-litti-chokha-that-will-bowl-you-over/photostory/61531078.cms"
     },
 
 
@@ -344,7 +376,8 @@ const datas = [
         pika: "./images/hollywood/f1.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://www.hindustantimes.com/hollywood/once-upon-a-time-in-hollywood-movie-review-leonardo-dicaprio-brad-pitt-shine-quentin-tarantino-shocks/story-gPhsB7xAPgtcVRqUe3NWAP.html"
     },
     {
         id: 32,
@@ -354,7 +387,8 @@ const datas = [
         pika: "./images/hollywood/f2.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://idealheating.com/blog/win-a-trip-to-hollywood"
     },
     {
         id: 33,
@@ -364,7 +398,8 @@ const datas = [
         pika: "./images/hollywood/f3.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://whoismontgomeryclift.com/golden-age-of-hollywood-actors/"
     },
     {
         id: 34,
@@ -373,7 +408,9 @@ const datas = [
         category: "hollywood",
         pika: "./images/hollywood/f4.jpg",
         key: "Intertainment",
-        datee:"may 5 2020"
+        datee:"may 5 2020",
+        mark:"top",
+        link:"http://www.bluefairyblog.com/listsandessays/weirdwomenoldhollywood"
     },
     {
         id: 35,
@@ -383,7 +420,8 @@ const datas = [
         pika: "./images/hollywood/f5.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://disneyparks.disney.go.com/blog/2019/05/boulevards-of-movie-dreams-part-one-imagineering-hollywood/"
     },
     {
         id: 36,
@@ -393,7 +431,8 @@ const datas = [
         pika: "./images/hollywood/f6.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://study.soas.ac.uk/3-times-hollywood-whitewashing/"
     },
     {
         id: 37,
@@ -403,7 +442,8 @@ const datas = [
         pika: "./images/hollywood/f7.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://cellardoorgroup.wordpress.com/emma-watson-hollywood-before-after-before-and-after/"
     },
     {
         id: 38,
@@ -413,7 +453,8 @@ const datas = [
         pika: "./images/hollywood/f8.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://blog.globusjourneys.com/2020/11/04/did-hollywood-clean-up-ancient-rome/"
     },
     {
         id: 39,
@@ -423,7 +464,8 @@ const datas = [
         pika: "./images/hollywood/f9.jpg",
         key: "Intertainment",
         datee:"may 5 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://www.themovieblog.com/2020/11/how-japan-has-influenced-hollywood-and-vice-versa/"
     },
 
 
@@ -439,7 +481,8 @@ const datas = [
         pika: "./images/tech/f1.jpg",
         key: "Technology",
         datee:"may 5 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://study.com/academy/lesson/internet-communication-twitter-email-im-blogging-rss-newsgroups.html"
     },
     {
         id: 41,
@@ -449,7 +492,8 @@ const datas = [
         pika: "./images/tech/f2.jpg",
         key: "Technology",
         datee:"may 6 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://blogs.worldbank.org/europeandcentralasia/can-technology-help-mitigate-impact-covid-19-education-systems-europe-and"
     },
     {
         id: 42,
@@ -459,7 +503,8 @@ const datas = [
         pika: "./images/tech/f3.jpg",
         key: "Technology",
         datee:"may 7 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://blogs.imf.org/2018/11/16/women-technology-and-the-future-of-work/"
     },
     {
         id: 43,
@@ -469,7 +514,8 @@ const datas = [
         pika: "./images/tech/f4.jpg",
         key: "Technology",
         datee:"may 8 2020",
-        mark:"latest"
+        mark:"latest",
+        link:"https://www.ll.mit.edu/news/if-transistors-cant-get-smaller-then-coders-have-get-smarter"
     },
     {
         id: 44,
@@ -479,7 +525,8 @@ const datas = [
         pika: "./images/tech/f5.jpg",
         key: "Technology",
         datee:"may 9 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://zeenews.india.com/economy/india-ranked-top-exporter-of-information-and-communication-technology-services-un-report-2015862.html"
     },
     {
         id: 45,
@@ -489,7 +536,8 @@ const datas = [
         pika: "./images/tech/f6.jpg",
         key: "Technology",
         datee:"may 10 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://turbofuture.com/computers/Advantages-of-Digital-Technology"
     },
     {
         id: 46,
@@ -499,7 +547,8 @@ const datas = [
         pika: "./images/tech/f7.jpg",
         key: "Technology",
         datee:"may 11 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://www.bbc.com/news/business-57979268"
     },
     {
         id: 47,
@@ -509,7 +558,8 @@ const datas = [
         pika: "./images/tech/f8.jpg",
         key: "Technology",
         datee:"may 5 2020",
-        mark:"top"
+        mark:"top",
+        link:"https://www.fairobserver.com/region/north_america/south-asian-women-science-technology-news-stem-innovation-43893/"
     },
 ];
 

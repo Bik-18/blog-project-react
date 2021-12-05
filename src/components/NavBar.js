@@ -26,12 +26,12 @@ const NavBar = (props) => {
             </div>
             {(a || screenWidth > 500) && (<nav >
                 <ul onClick={handeltoggle}>
-                    <li><NavLink exact to="/" activeClassName="active-style" className="normal-link-style">Home</NavLink> </li>
-                    <li><NavLink exact to="/bollywood" activeClassName="active-style" className="normal-link-style">Bollywood</NavLink> </li>
-                    <li><NavLink exact to="/technology" activeClassName="active-style" className="normal-link-style">Technology</NavLink> </li>
-                    <li><NavLink exact to="/hollywood" activeClassName="active-style" className="normal-link-style">Hollywood</NavLink> </li>
-                    <li><NavLink exact to="/fitness" activeClassName="active-style" className="normal-link-style">Fitness</NavLink> </li>
-                    <li><NavLink exact to="/food" activeClassName="active-style" className="normal-link-style">Food</NavLink> </li>
+                    <li><NavLink exact to="/"  className="normal-link-style" activeClassName="active-style">Home</NavLink> </li>
+                    <li><NavLink exact to="/bollywood"  className="normal-link-style" activeClassName="active-style">Bollywood</NavLink> </li>
+                    <li><NavLink exact to="/technology"  className="normal-link-style" activeClassName="active-style">Technology</NavLink> </li>
+                    <li><NavLink exact to="/hollywood"  className="normal-link-style" activeClassName="active-style">Hollywood</NavLink> </li>
+                    <li><NavLink exact to="/fitness"  className="normal-link-style" activeClassName="active-style">Fitness</NavLink> </li>
+                    <li><NavLink exact to="/food"  className="normal-link-style" activeClassName="active-style">Food</NavLink> </li>
                 </ul>
             </nav>)}
 

@@ -20,17 +20,25 @@ nav ul li{
 nav ul li Link{
     text-decoration: none;
 }
-.active-style{
-    color: blueviolet;
-    font-size: medium;
-    font-weight: 700;
-}
 .normal-link-style{
     text-decoration: none;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
+.active-style{
+    /* color: blueviolet;
+    font-size: medium;
+    font-weight: 700; */
+
+    color: white;
+    background-color: black;
+    padding: 6px 13px;
+    border-radius: 5px;
+    transition: all 600ms ease;
+    box-shadow: 0 0 20px white;
+}
+
 .normal-link-style:hover{
     color: white;
     background-color: black;
@@ -45,13 +53,14 @@ nav ul li Link{
     nav{
         margin: 10px 0px;
         background-color: white;
-        position: absolute;
+        position: fixed;
         top: 50px;
         line-height: 50px;
         /* border-radius: 20px; */
         width: 100%;
         display: block;
         z-index: 2;
+
     }
     nav ul{
         list-style: none;
